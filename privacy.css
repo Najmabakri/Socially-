@@ -1,0 +1,101 @@
+.privacy-section {
+    padding: 50px 20px;
+    background-color: #fef3f7;
+    text-align: center;
+}
+
+.privacy-section h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600; 
+    text-transform: uppercase; 
+    letter-spacing: 1.5px; 
+}
+
+.privacy-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 500; 
+    text-transform: capitalize;
+    letter-spacing: 1px; 
+}
+
+.privacy-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.8; 
+}
+
+.privacy-section a {
+    color: #ff4e8a;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.privacy-section a:hover {
+    text-decoration: none;
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ff5f7e;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    font-size: 0.9rem;
+    border-top: 1px solid #eaeaea;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up - Socially</title>
+  <link rel="stylesheet" href="signup.css">
+  <link rel="icon" type="image/png" href="loogo.png">
+</head>
+<body class="signup-page">
+  <div class="form-container">
+    <h2>Create Account</h2>
+    <p>Sign up to get started with Socially.</p>
+
+    <form>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your full name" required>
+
+      <label>Email Address</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Password</label>
+      <input type="password" placeholder="Enter your password" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Log In</a></p>
+  </div>
+
+ <script>
+  document.querySelector('form').addEventListener('submit', function(e) {
+    const password = document.querySelector('input[type="password"]').value;
+    if (password.length < 6) {
+        e.preventDefault();
+        alert('Password must be at least 6 characters long.');
+    }
+  });
+
+  let user = {
+  name: document.getElementById('name').value,
+  email: document.getElementById('email').value,
+  password: document.getElementById('password').value
+};
+localStorage.setItem("user", JSON.stringify(user));
+
+ </script>
+ 
+</body>
+</html>

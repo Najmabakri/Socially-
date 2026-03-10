@@ -1,0 +1,50 @@
+.join-page {
+    background: #f5f5ff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .join-container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .join-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .join-container form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .join-container form button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #c850c0, #4158d0);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #4158d0;
+    text-decoration: none;
+  }
+  
